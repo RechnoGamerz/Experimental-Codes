@@ -1,11 +1,11 @@
 import openai
 
 # Set up your OpenAI API credentials
-openai.api_key = 'YOUR_API_KEY'
+openai.api_key = ''
 
 def chat_with_gpt3(prompt):
 	    response = openai.Completion.create(
-	        engine='text-davinci-003',
+	        engine='',
 	        prompt=prompt,
 	        max_tokens=50,
 	        temperature=0.7,
