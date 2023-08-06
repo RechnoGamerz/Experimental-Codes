@@ -1,7 +1,7 @@
 from pytube import YouTube
 from sys import argv
 
-link = argv[1]
+link = str(input("Pls paste or enter the link:"))
 yt = YouTube(link)
 
 print("Title: ", yt.title)
